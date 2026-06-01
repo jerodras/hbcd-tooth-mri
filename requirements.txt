@@ -1,0 +1,10 @@
+matplotlib
+nibabel
+numpy
+pandas
+scikit-image
+scikit-learn
+scipy
+statsmodels
+torch
+torchio
