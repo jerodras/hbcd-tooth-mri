@@ -35,8 +35,6 @@ steps/
 
 The repository does not include HBCD imaging data, controlled-access phenotype tables, generated NIfTI files, or model weights. Scripts expect local paths and analysis parameters to be supplied through `config.yaml`.
 
-Several scripts import shared helper modules from `utils` (`utils.io`, `utils.model`, `utils.preprocessing`, and `utils.metrics`). These helper files and a template configuration file should be included before public release if the repository is intended to be runnable from a fresh clone.
-
 Python package dependencies are listed in `requirements.txt`.
 
 ## Typical Invocation
@@ -56,4 +54,3 @@ The segmentation training and inference scripts are retained for methodological 
 
 ## Notes
 
-This code is provided to document the computational workflow associated with the manuscript. It is not distributed with participant-level data.
